@@ -67,7 +67,7 @@ void readgyro(void)
         ((int16_t) ((data[4] << 8) | data[5]) )* 4000L);
 
 }
-#elif
+//#elif
 // the other gyros here
 #endif
 
